@@ -14,11 +14,11 @@ fs.readdirSync('./slashcommands').forEach(async(categorys) => {
   }
 })
 
-const rest = new REST({ version: '10' }).setToken('MTE5MzM4NTQ4NjQ4MDMxODQ5NQ.GH_wyE.QT2WjTfTeOHAsn_gxP2NMy1z_nAncH2EjmMlxg');
+const rest = new REST({ version: '10' }).setToken('');
 async function creareSlash() {
   try {
     await rest.put(
-      Routes.applicationCommands('1193385486480318495'), {
+      Routes.applicationCommands(''), {
         body: commands
       }
     )
