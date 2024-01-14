@@ -14,7 +14,7 @@ client.on('ready', () => {
   console.log(`${client.user.tag.italic} is online.`.green)
 })
 
-client.login('MTE5MzM4NTQ4NjQ4MDMxODQ5NQ.GH_wyE.QT2WjTfTeOHAsn_gxP2NMy1z_nAncH2EjmMlxg')
+client.login('')
 
 ////////////////////// Slash Commands
 ////////////////////////////////////////////////////////
